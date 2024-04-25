@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5{
 }
 
 .social-icon [class*="icon-"]{
-    color: black;
+    color: rgb(0, 0, 0);
     margin-left: 10px;
     display: flex;
     justify-content: center;
@@ -95,7 +95,7 @@ h1,h2,h3,h4,h5{
     font-size: 1.3em;
     width: 35px;
     height: 35px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 50%;
 }
 
@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5{
     top: 75px;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0,.85);
+    background: rgba(0, 0, 0, 0.85);
     padding:0px;
     margin:0px;
     z-index: 2000px;
@@ -125,7 +125,7 @@ h1,h2,h3,h4,h5{
 .menu__link{
     display: block;
     padding: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
     
@@ -134,7 +134,7 @@ h1,h2,h3,h4,h5{
      background-color: #DE423A;
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: #00f7ff;
     
 }
 .mostrar{
@@ -151,7 +151,7 @@ h1,h2,h3,h4,h5{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1000;
     top: 0;
 }
@@ -162,7 +162,7 @@ h1,h2,h3,h4,h5{
 }
 .banner__content {
     width: 70%;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align:center;
     position: absolute;
     z-index: 1500;
@@ -176,7 +176,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: #8a8888;
 	padding: 10px;
 	text-align: center;
 	
@@ -199,8 +199,8 @@ h1,h2,h3,h4,h5{
 	text-align: center;
 	text-decoration: none;
 	width: 120px;
-	background: #DE423A;
-	color: #fff;
+	background: #00f7ff;
+	color: #000000;
 	padding:10px;
 	margin: 10px auto;
 	
@@ -231,14 +231,14 @@ h1,h2,h3,h4,h5{
 }
 .today-special__price{
 	font-size: 1.5em;
-	color: #DE423a;
+	color: #de423a;
 	font-weight: bold;
 }
 
 /*----------------Estilos Principales------------------*/
 .main-footer{
 	background: #222;
-	color: #fff;
+	color: #ffffff;
 	padding: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -252,7 +252,7 @@ h1,h2,h3,h4,h5{
 }
 
 .main-footer [class*="icon-"] {
-	color: #fff;
+	color: #ffffff;
 	text-decoration: none;
 	
 	
@@ -267,7 +267,7 @@ h1,h2,h3,h4,h5{
 
 @media screen and (min-width:480px){
 	.logo{
-		color: #fff;
+		color: #ffffff;
 		
 	}
 	.main-header__contactInfo{
@@ -281,10 +281,10 @@ h1,h2,h3,h4,h5{
 		background: none;
 	}
 	.main-header__contactInfo__addres{
-		color: #fff;
+		color: #ffffff;
 	}
 	.main_nav{
-		background:rgba(0,0,0,0.85);
+		background:rgba(0, 0, 0, 0.425);
 	}
 	.banner__content{
 		font-size:1.5em;
@@ -308,7 +308,7 @@ h1,h2,h3,h4,h5{
 		margin: 0;
 	}
 	.today-special .column {
-		border: 5px solid #ddd;
+		border: 5px solid #dddddd;
 		padding: 5px;
 	}
 	.today-special__img{
