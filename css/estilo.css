@@ -131,10 +131,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: #94979779;
 }
 .menu__link--select{
-    background-color: #00f7ff;
+    background-color: #94979779;
     
 }
 .mostrar{
@@ -312,7 +312,7 @@ h1,h2,h3,h4,h5{
 		padding: 5px;
 	}
 	.today-special__img{
-		height: 200px;
+		height: 320px;
 		object-fit: cover;
 	}
 	.main-footer .container--flex{
