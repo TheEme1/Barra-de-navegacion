@@ -1,0 +1,24 @@
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.imagen{
+    overflow: hidden;
+    border-radius: 0px;
+    max-width: 100%;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.imagen img{
+    width: 100%;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.imagen img:hover{
+    transform: scale(1.1);
+}
