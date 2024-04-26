@@ -5,7 +5,7 @@
     <title>Contacto</title>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/estilo_contacto.css">
     <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
 </head>
 <body>
@@ -45,5 +45,37 @@
             </div>
         </div>
     </nav>
+    <section class="banner">
+        <img src="img/banner_galeria.jpg" alt="" class="banner__img">
+        <div class="banner__content">Disfruta de nuestra galería</div>
+    </section>
+
+
+    <main class="main-contact">
+        <form>
+            <h2>Contacto</h2>
+            <div class="input-group">
+                
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+                <input class="boton" type="submit" value="Enviar">
+        
+            </div>
+        </form>
+
+    </main>
+
+
+
 </body>
 </html>
