@@ -1,6 +1,6 @@
 .main-contact{
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
+    min-height: 130vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +12,7 @@ form{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     text-align: center;
-    width: 340px;
+    width: 400px;
 }
 
 .input-group{
@@ -24,12 +24,13 @@ form{
 h2{
     color:rgb(0, 0, 0);
     font-size: 35px;
+    margin-bottom: 30px;
 }
 
 label{
     color: rgb(0, 0, 0);
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 550;
     margin-bottom: 15px;
 }
 
@@ -37,8 +38,8 @@ input, textarea{
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
-    background-color: rgb(217, 219, 219);
-    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(245, 244, 244);
+    border: 2px solid rgb(231, 231, 231);
     color: rgb(0, 0, 0);
     outline: none;
 }
@@ -57,16 +58,32 @@ input::placeholder, textarea::placeholder{
 
 .boton{
     font-size: 16px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border: 0;
     border-radius: 25px;
-    background-color: rgb(34, 221, 228);
-    box-shadow: 0 0 20px rgba(0, 0, 0,);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(209, 208, 208);
     cursor: pointer;
 }
 
 .boton:hover{
-    background-color: rgb(0, 247, 255);
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+/*----------------Estilos Maps------------------*/
+
+.main-maps{
+    min-height: 50vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    width: 500px;
+    height: 500px;
+    
 }
 
 @media(max-width:991px){
